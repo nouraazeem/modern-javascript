@@ -149,8 +149,13 @@ let names = ['mario', 'luigi', 'toad'];
 // comparision operators
 let age = 25;
 
-console.log(age == 25);
-console.log(age == 30);
+// console.log(age == 25);
+// console.log(age == 30);
 // != will negate the command
-console.log(age != 30);
+// console.log(age != 30);
+// console.log(age > 20);
+
+let name = 'shaun';
+
+
 
