@@ -54,11 +54,17 @@ if(ninjas.length >4){
     console.log("that's is a lot of ninjas")
 } */
 
-const pas = 'pas';
+//else if statements
+/* const pas = 'pas@1567';
 
-if(pas.length >= 8){
+if(pas.length >= 12 && pas.includes('@')){
+    console.log('that password is mighty strong!')
+    // or is ||
+} else if(pas.length >= 8 || pas.includes('@' && pas.length >=5)){
     console.log('that password is long enough!');
 } else {
     console.log('password is not long enough')
 }
+ */
 
+// logical NOT (!)
