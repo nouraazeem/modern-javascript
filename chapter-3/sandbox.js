@@ -34,9 +34,31 @@ while(i < names.length){
 
 // do while loop - even when there is exceptions to the code
 
-let i=5;
+/* let i=5;
 
 do{
     console.log('val of i is:', i);
     i++;
-} while(i < 5)
+} while(i < 5) */
+
+// if statements
+/* const age = 25;
+
+if(age > 20){
+    console.log('you are over 20 years old');
+}
+
+const ninjas = ['shaun', 'mario', 'luigi', 'noura'];
+
+if(ninjas.length >4){
+    console.log("that's is a lot of ninjas")
+} */
+
+const pas = 'pas';
+
+if(pas.length >= 8){
+    console.log('that password is long enough!');
+} else {
+    console.log('password is not long enough')
+}
+
