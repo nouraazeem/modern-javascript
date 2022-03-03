@@ -12,9 +12,39 @@ const speak = function(){
 greet();
 greet(); */
 
-const speak = function(name = 'luigi', time = 'night'){
+/* const speak = function(name = 'luigi', time = 'night'){
     console.log(`good ${time}, ${name}`)
+}; */
+
+//speak('mario');
+//speak('mario', 'morning');
+
+// returning values
+/* const calcArea = function(radius){
+    return 3.14 * radius**2;
+}
+
+const area = calcArea(5);
+console.log(area);
+
+const calcVol = function(area){
+
 };
 
-speak('mario');
-//speak('mario', 'morning');
+calcVol(area) */
+
+// regular function
+/* const calcArea = function(radius){
+    return 3.14 * radius**2;
+
+ */
+
+// arrow function -- has to be 1 parameter
+/* const calcArea = (radius, ) => {
+    return 3.14 * radius**2;
+}; */
+
+const calcArea = radius => 3.14 * radius**2;
+
+const area = calcArea(5);
+console.log('area is:', area);
